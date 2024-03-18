@@ -50,7 +50,7 @@ const (
 ## Установка
 Установка производится в процессе стандартной инициализации проекта при помощи команды __init__:
 ```go
-go mod init applacation/gb
+go mod init application/gb
 ```
 
 ## Пакеты
