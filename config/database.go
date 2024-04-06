@@ -6,7 +6,7 @@ import (
 
 	"database/sql"
 
-	_ "github.com/lib/pq" //pg_driver
+	_ "github.com/lib/pq" //p
 	"github.com/rs/zerolog/log"
 )
 
@@ -14,7 +14,7 @@ const (
 	host     = "localhost"
 	port     = "5432"
 	user     = "postgres"
-	password = "123456"
+	password = "40779612"
 	dbName   = "postgres"
 )
 

@@ -1,5 +1,5 @@
 # gb rest full api [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-*****
+***
 RESTful API (API передачи репрезентативного состояния) — это тип архитектуры веб-сервиса, который использует HTTP-запросы для выполнения операций CRUD (создание, чтение, обновление, удаление) над ресурсами. 
 
 ## Описание
@@ -60,6 +60,20 @@ go mod init applacation/gb
 | [HttpRouter](https://github.com/julienschmidt/httprouter) | маршрутизатор HTTP-запросов также называемый мультиплексором |
 | [pq](https://pkg.go.dev/github.com/lib/pq@v1.10.9)|драйвер posgresql, для взаимодествия с субд|          
 | [log](https://pkg.go.dev/github.com/rs/zerolog@v1.32.0/log)|используется для вывода полноформатного сообщения, сигнализирующая работу запущенного сервера|
+
+## Cпецифация запроса на создание сущности
+
+```json
+{
+	"namebox": "",
+    "description": "",
+    "count_fans": 0,
+    "filtration": false,
+    "dimensions":0,
+    "Automation":false
+}
+
+```
 
 
 
