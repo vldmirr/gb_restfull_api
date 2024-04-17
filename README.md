@@ -1,5 +1,5 @@
 # gb rest full api [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-***
+
 RESTful API (API передачи репрезентативного состояния) — это тип архитектуры веб-сервиса, который использует HTTP-запросы для выполнения операций CRUD (создание, чтение, обновление, удаление) над ресурсами. 
 
 ## Описание
