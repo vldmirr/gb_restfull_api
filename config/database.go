@@ -10,16 +10,9 @@ import (
 	"github.com/rs/zerolog/log"
 )
 
-const (
-	host     = "localhost"
-	port     = "5432"
-	user     = "postgres"
-	password = ""
-	dbName   = "postgres"
-)
-
 func DatabaseConnection() *sql.DB {
-	sqlInfo := fmt.Sprintf("host=%s port=%s user=%s password=%s dbname=%s sslmode=disable", host, port, user, password, dbName)
+
+	sqlInfo := fmt.Sprintf("host=%s port=%s user=%s password=%s dbname=%s sslmode=disable", Host, Port, User, Password, DbName)
 
 	db, err := sql.Open("postgres", sqlInfo)
 	helper.PanicIfError(err)

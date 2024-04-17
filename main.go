@@ -14,6 +14,7 @@ import (
 
 func main() {
 	fmt.Printf("the server is flowing\n")
+
 	//database
 	db := config.DatabaseConnection()
 
